@@ -28,7 +28,7 @@ const Home = () => {
                     </div>
                     <div className="col-md-4 mt-5">
                         <div className="d-flex justify-content-end">
-                            <img src={profileImage} alt="Profile" style={{ width: "200px", height: "200px", borderRadius: "50%", marginTop: "40px" }} />
+                            <img src={profileImage} alt="Profile" style={{ width: "200px", height: "200px", borderRadius: "50%", marginTop: "40px",border: "8px solid rgba(217, 217, 217, 0.3)", boxSizing: "border-box" }} />
                         </div>
                     </div>
                 </div>
