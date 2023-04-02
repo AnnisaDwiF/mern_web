@@ -15,7 +15,7 @@ const Skills = () => {
         <section id="Skills">
             <div className="container">
                 <h1 className="mt-5 text-center">Skills</h1>
-                    <div className="text-center mb-4">My Technical Skills</div>
+                    <div className="text-center mb-4" style={{fontSize: '12px'}}>My technical skills</div>
                     <div className="d-flex flex-wrap justify-content-center justify-content-md-start">
                     <div className="card p-3 me-4 mb-4" style={{ width: "198px", height: "143px", border: "1px solid #D4D4D4", borderTopLeftRadius: "16px", marginLeft: "230px"}}>
                   <div className="card-body text-left" style={{fontSize: "11px", fontWeight: "bold"}}>

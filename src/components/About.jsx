@@ -10,7 +10,7 @@ const About = () => {
       <section id="About">
         <div className="container"  style={{marginTop: "50px"}}>
           <h1 className="mt-5 text-center">About Me</h1>
-          <div className="text-center mb-4">My Introduction</div>
+          <div className="text-center mb-4" style={{fontSize: '12px'}}>My Introduction</div>
           <div className="row align-items-start"  style={{marginTop: "60px"}}>
             <div className="col-md-6">
               <div className="d-flex justify-content-center justify-content-md-start mb-4">

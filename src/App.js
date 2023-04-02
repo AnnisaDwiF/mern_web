@@ -6,6 +6,8 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Services from './components/Services';
 import Blog from './components/Blog';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
     <Skills />
     <Services />
     <Blog />
+    <Contact />
+    <Footer />
     </>
   );
 }
