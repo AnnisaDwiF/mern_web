@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className="bg-white text-bl ack py-3 shadow" style={{ marginTop: '30px' }}>
             <div className="container">
                 <div className="mt-5 text-center" style={{ marginTop: '5px' }}>
-                    <h5>Follow Us</h5>
+                    <h5>Follow Me</h5>
                     <ul className="list-inline">
                         <li className="list-inline-item">
                             <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">

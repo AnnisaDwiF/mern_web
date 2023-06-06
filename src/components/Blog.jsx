@@ -13,7 +13,7 @@ const Blog = () => {
           <div className="row align-items-start"  ></div>
           <div className="col-md-6">
             <div className="d-flex align-items-center" style={{ marginTop: "10px", fontWeight: "bold" }}>
-              <FontAwesomeIcon icon={faGraduationCap} size="1x" style={{ marginLeft: "515px" }} />
+              <FontAwesomeIcon icon={faGraduationCap} size="1x" style={{ marginLeft: "505px" }} />
               <div className="ms-3">Educations</div>
               <FontAwesomeIcon icon={faBagShopping} size="1x" style={{ marginLeft: "50px" }} />
               <div className="ms-3">Experience</div>
@@ -21,11 +21,25 @@ const Blog = () => {
 
           </div>
           <div className="d-flex justify-content-between align-items-center" style={{ marginTop: "50px", marginLeft: '500px' }}>
-            <div style={{ marginTop: '-350px' }}>Text on the left</div>
+            <div style={{ marginTop: '-360px', fontWeight: 'bold' }}>Web Designed <br /> Indonesia-Ind</div>
             <span style={{ display: "flex", alignItems: "center" }}>
-              <div className="line" style={{ width: "2px", height: "400px", backgroundColor: "#000000" }}></div>
+              <div className="line" style={{ width: "2px", height: "380px", backgroundColor: "#000000", textAlign: 'center', position: 'relative' }}>
+                <div style={{ position: 'absolute', top: '0%', left: '50%', transform: 'translate(-50%, -50%)', width: '12px', height: '12px', borderRadius: '50%', backgroundColor: '#000000' }}></div>
+                <div style={{ position: 'absolute', top: '34.25%', left: '50%', transform: 'translate(-50%, -50%)', width: '12px', height: '12px', borderRadius: '50%', backgroundColor: '#000000' }}></div>
+                <div style={{ position: 'absolute', top: '65.5%', left: '50%', transform: 'translate(-50%, -50%)', width: '12px', height: '12px', borderRadius: '50%', backgroundColor: '#000000' }}></div>
+                <div style={{ position: 'absolute', top: '100%', left: '50%', transform: 'translate(-50%, -50%)', width: '12px', height: '12px', borderRadius: '50%', backgroundColor: '#000000' }}></div>
+
+              </div>
             </span>
-            <div style={{ marginRight: '500px', marginTop: '-150px' }}>Text on the right</div>
+
+            <div style={{ marginRight: '500px', marginTop: '-100px', fontWeight: 'bold' }}>Art Design<br /> Indonesia-Ind</div>
+          </div>
+          <div className="d-flex justify-content-between align-items-center" style={{ marginTop: "50px", marginLeft: '500px' }}>
+            <div style={{ marginTop: '-350px', fontWeight: 'bold' }}>Web Development <br /> Indonesia-Ind</div>
+            <span style={{ display: "flex", alignItems: "center" }}>
+              {/* <div className="line" style={{ width: "2px", height: "400px", backgroundColor: "white", textAlign: 'center' }}></div> */}
+            </span>
+            <div style={{ marginRight: '500px', marginTop: '-90px', fontWeight: 'bold' }}>UI Expert<br /> Indonesia-Ind</div>
           </div>
         </div>
         <h1 className="mt-5 text-center" >Testimonial</h1>

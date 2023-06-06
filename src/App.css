@@ -1,0 +1,26 @@
+/* Cards */
+.card{
+    transition: all 0.5s ease;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+/* body {
+    font-family: 'DM Sans', sans-serif;
+  }
+  
+  .container, .card {
+    font-family: 'DM Sans', sans-serif;
+  } */
+
+  /* teks */
+  .gradient-text {
+    background: linear-gradient(90deg, #000000, #c70606);
+    -webkit-background-clip: text;
+    background-clip: '';
+    -webkit-text-fill-color: transparent;
+  }
+  

@@ -7,7 +7,7 @@ const Navbar = () => {
       style={{ position: "fixed", top: 0, width: "100%", zIndex: 1 }}
     >
       <div className="container-fluid px-5">
-        <a className="navbar-brand fw-bolder" href="#">
+        <a className="navbar-brand fw-bolder gradient-text" href="#">
           AnnisaDwiFebryanti
         </a>
         <button
